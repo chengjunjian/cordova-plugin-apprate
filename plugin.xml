@@ -44,7 +44,7 @@ under the License.
     </js-module>
 
     <js-module src="www/locales.js" name="locales">
-        <merges target="AppRateLocales"/>
+        <clobbers target="AppRateLocales"/>
     </js-module>
 
     <!-- android -->
